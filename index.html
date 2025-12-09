@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PandaWork User Guide (Formal Edition)</title>
+  <link rel="stylesheet" href="/pandawork/help/style.en.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>PandaWork User Guide</h1>
+        <article class="terms" aria-labelledby="terms-title">
+            <header>
+                <p class="intro">PandaWork provides a clear view of your finances, built to stay accurate and under your control.</p>
+                <p class="intro">PandaWork helps you record accounts, track balances, and generate financial statements across all your devices using iCloud sync.</p>
+                <p class="intro">Whether you manage personal finances or business records, the goal is simple: clarity, consistency, and confidence in your numbers.</p>
+            </header>
+
+            <nav class="toc" aria-label="Table of contents">
+                <strong>Contents</strong>
+                <ol>
+                    <li><a href="#calendar">Calendar</a></li>
+                    <li><a href="#partner">Partner</a></li>
+                    <li><a href="#finance">Finance</a></li>
+                    <li><a href="#social">Social</a></li>
+                    <li><a href="#settings">Settings</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ol>
+            </nav>
+
+            <section id="calendar">
+                <h2>Calendar</h2>
+                <p class="note">In the calendar view, users can review changes in each financial account based on their journal entries, and even filter account changes by business partners (customers, suppliers), employees, departments, or other dimensions related to them.</p>
+            </section>
+
+            <section id="partner">
+                <h2>Business Partner</h2>
+                <p>The Business Partners view allows users to manage suppliers, customers, and other partners. The address book data is connected to the financial module and can participate in analytics and calculations.</p>
+            </section>
+
+            <section id="finance">
+                <h2>Finance</h2>
+                 <h3>3.1 Ledger Management</h3>
+
+  <h4>3.1.1 Definition</h4>
+  <p>Ledger Management provides tools for organizing, reviewing, and maintaining ledger data, ensuring that account records remain accurate, consistent, and well-structured over time.</p>
+
+  <h4>3.1.2 Ledger Structure</h4>
+  <p>Ledger Management is built on the General Ledger and focuses on how ledger data is maintained and controlled. Each ledger is organized by:</p>
+  <ul>
+    <li>Accounts</li>
+    <li>Accounting periods</li>
+    <li>Journal entries and vouchers</li>
+  </ul>
+  <p>This structure ensures that all financial activities are clearly recorded and traceable.</p>
+
+  <h4>3.1.3 Reviewing Ledger Records</h4>
+  <p>Users can review ledger records in detail to understand how account balances are formed.</p>
+  <ul>
+    <li>Opening balance</li>
+    <li>Individual debit and credit entries</li>
+    <li>Running balance</li>
+    <li>Ending balance</li>
+  </ul>
+  <p>Advanced filters allow users to review records by date, period, account, voucher, or amount range.</p>
+
+  <h4>3.1.4 Adjustments and Corrections</h4>
+  <ul>
+    <li>Errors should be fixed using <strong>adjusting or reversing entries</strong> rather than direct edits.</li>
+    <li>This preserves historical accuracy and audit integrity.</li>
+    <li>Adjustments are clearly marked and traceable to their source.</li>
+  </ul>
+  <p>Direct modification of posted ledger data is restricted to prevent inconsistencies.</p>
+
+  <h4>3.1.5 Period Management</h4>
+  <ul>
+    <li>Open periods allow normal posting and adjustments.</li>
+    <li>Closed periods are locked to protect finalized data.</li>
+    <li>Corrections to closed periods are typically made through entries in the next open period.</li>
+  </ul>
+
+  <h4>3.1.6 Reconciliation</h4>
+  <ul>
+    <li>Comparing ledger balances with external statements</li>
+    <li>Verifying totals against subsidiary records</li>
+    <li>Identifying missing or duplicated transactions</li>
+  </ul>
+  <p>Regular reconciliation improves accuracy and reduces long-term errors.</p>
+
+  <h4>3.1.7 Data Integrity and Audit Trail</h4>
+  <ul>
+    <li>Source transactions and vouchers</li>
+    <li>Timestamps and user actions</li>
+    <li>Clear links between entries and account balances</li>
+  </ul>
+  <p>This supports internal controls and external audits.</p>
+
+  <h4>3.1.8 Best Practices</h4>
+  <ul>
+    <li>Review ledger activity regularly, not only at period end.</li>
+    <li>Avoid manual balance adjustments outside the ledger workflow.</li>
+    <li>Reconcile important accounts periodically.</li>
+    <li>Close accounting periods only after thorough review.</li>
+  </ul>
+
+  <!-- 3.2 General Ledger -->
+  <h3>3.2 General Ledger</h3>
+
+  <h4>3.2.1 Definition</h4>
+  <p>The General Ledger is the core of the accounting system. It records, organizes, and summarizes all financial transactions, serving as the foundation for financial statements and analysis.</p>
+
+  <h4>3.2.2 What Is the General Ledger</h4>
+  <p>The General Ledger contains all accounts and their detailed transaction history. Every financial event—such as income, expenses, asset purchases, or liability changes—is ultimately posted to the General Ledger through journal entries.</p>
+  <ul>
+    <li>The account affected</li>
+    <li>Debit and credit amounts</li>
+    <li>Transaction date and period</li>
+    <li>Related voucher or journal reference</li>
+  </ul>
+  <p>Together, these entries provide a complete and auditable financial record.</p>
+
+  <h4>3.2.3 Posting to the General Ledger</h4>
+  <ul>
+    <li>Transactions are posted through <strong>journal entries (vouchers)</strong>.</li>
+    <li>Total debits must always equal total credits.</li>
+    <li>Once posted, entries update account balances automatically.</li>
+  </ul>
+  <p>Direct editing is restricted; changes should be made via adjustments or reversals.</p>
+
+  <h4>3.2.4 Browsing Ledger Entries</h4>
+  <ul>
+    <li>Account</li>
+    <li>Date or accounting period</li>
+    <li>Voucher number</li>
+    <li>Amount range or keywords</li>
+  </ul>
+  <p>Filtering and sorting tools help users quickly locate transactions or review activity over time.</p>
+
+  <h4>3.2.5 Account Balances</h4>
+  <ul>
+    <li>Opening balance</li>
+    <li>Current period movements</li>
+    <li>Accumulated balance</li>
+    <li>Ending balance</li>
+  </ul>
+  <p>Balances are updated in real time and form the basis for reports like the Trial Balance, Balance Sheet, and Income Statement.</p>
+
+  <h4>3.2.6 Reconciliation and Review</h4>
+  <ul>
+    <li>Compare ledger balances with external records (e.g., bank statements)</li>
+    <li>Identify unusual or unexpected transactions</li>
+    <li>Verify balances align with subsidiary ledgers or accounting centers</li>
+  </ul>
+
+  <h4>3.2.7 Period Control</h4>
+  <ul>
+    <li>Transactions are recorded within specific periods.</li>
+    <li>Closed periods are typically locked.</li>
+    <li>Adjusting entries can be made in subsequent periods.</li>
+  </ul>
+
+  <h4>3.2.8 Audit and Traceability</h4>
+  <ul>
+    <li>Source voucher or document</li>
+    <li>Creation and modification timestamps</li>
+    <li>User performing the action</li>
+  </ul>
+
+  <h4>3.2.9 Best Practices</h4>
+  <ul>
+    <li>Post vouchers promptly to keep balances up to date.</li>
+    <li>Avoid manual balance adjustments outside the ledger workflow.</li>
+    <li>Review regularly, especially before closing a period.</li>
+    <li>Use filters and summaries for efficient analysis.</li>
+  </ul>
+
+  <!-- 3.3 Subsidiary Ledger -->
+  <h3>3.3 Subsidiary Ledger</h3>
+  <p>A <strong>Subsidiary Ledger</strong> provides detailed records of transactions for individual accounts, supporting the general ledger.</p>
+
+  <h4>3.3.1 Key Features</h4>
+  <ul>
+    <li>Track accounts receivable and accounts payable in detail.</li>
+    <li>Manage customer or supplier balances.</li>
+    <li>Drill down from the general ledger to see individual transactions.</li>
+  </ul>
+  <p><strong>Tips:</strong> Subsidiary ledgers help reconcile the GL and provide insights into specific accounts.</p>
+
+  <!-- 3.4 Financial Statements -->
+  <h3>3.4 Financial Statements</h3>
+
+  <h4>3.4.1 Purpose of Financial Statements</h4>
+  <ul>
+    <li>Evaluate financial health and performance</li>
+    <li>Understand income, expenses, assets, and liabilities</li>
+    <li>Support decision-making and planning</li>
+    <li>Provide standardized views for internal or external use</li>
+  </ul>
+  <p>All reports are generated directly from ledger data to ensure accuracy and consistency.</p>
+
+  <h4>3.4.2 Standard Financial Statements</h4>
+  <ul>
+    <li><strong>Balance Sheet</strong>: Shows assets, liabilities, and equity at a specific point in time.</li>
+    <li><strong>Income Statement</strong>: Summarizes revenues and expenses over a period, reflecting profit or loss.</li>
+    <li><strong>Cash Flow Statement</strong>: Displays cash inflows and outflows categorized by operating, investing, and financing activities.</li>
+  </ul>
+
+  <h4>3.4.3 Custom Report Structure</h4>
+  <ul>
+    <li>Define report items and hierarchical levels</li>
+    <li>Map accounts to report items</li>
+    <li>Control calculation rules and presentation order</li>
+    <li>Show or hide specific items</li>
+  </ul>
+
+  <h4>3.4.4 Period and Comparison</h4>
+  <ul>
+    <li>Single accounting period</li>
+    <li>Multiple periods for trend analysis</li>
+    <li>Side-by-side comparisons between periods</li>
+  </ul>
+
+  <h4>3.4.5 Multi-Dimensional Analysis</h4>
+  <ul>
+    <li>Accounting centers</li>
+    <li>Categories or groups</li>
+    <li>Business partners or departments</li>
+  </ul>
+
+  <h4>3.4.6 Accuracy and Consistency</h4>
+  <ul>
+    <li>Reports reflect current ledger data</li>
+    <li>Calculations follow defined accounting rules</li>
+    <li>Recalculation occurs automatically after data changes</li>
+  </ul>
+
+  <h4>3.4.7 Export and Presentation</h4>
+  <ul>
+    <li>Viewed within the app</li>
+    <li>Exported for sharing or external use</li>
+    <li>Used as data sources for charts and dashboards</li>
+  </ul>
+
+  <h4>3.4.8 Best Practices</h4>
+  <ul>
+    <li>Review reports regularly, not only at period end</li>
+    <li>Recalculate statements after major adjustments</li>
+    <li>Validate key balances against the General Ledger</li>
+    <li>Confirm period and currency settings before export</li>
+  </ul>
+
+  <!-- 3.5 Chart -->
+  <h3>3.5 Chart</h3>
+
+  <h4>3.5.1 Definition</h4>
+  <p>Charts provide a visual representation of financial statements, helping users understand data trends and relationships more intuitively. By converting numbers into visuals, charts make complex financial information easier to read and analyze.</p>
+
+  <h4>3.5.2 Visualizing Financial Data</h4>
+  <ul>
+    <li>Changes over time</li>
+    <li>Proportions and composition</li>
+    <li>Comparisons between accounts, periods, or categories</li>
+  </ul>
+
+  <h4>3.5.3 Customizable Chart Settings</h4>
+  <ul>
+    <li>Chart type (bar, line, pie)</li>
+    <li>Data source (statements, accounts, periods)</li>
+    <li>Value columns to display</li>
+    <li>Grouping and aggregation rules</li>
+    <li>Time range and comparison period</li>
+  </ul>
+
+  <h4>3.5.4 Dashboard View</h4>
+  <ul>
+    <li>Combine different chart types in one view</li>
+    <li>Monitor key financial indicators at a glance</li>
+    <li>Compare visuals side by side for deeper analysis</li>
+  </ul>
+
+  <h4>3.5.5 Designed for Clarity</h4>
+  <ul>
+    <li>Clean layout</li>
+    <li>Clear labels and scales</li>
+    <li>Focus on data, not decoration</li>
+  </ul>
+
+  <!-- 3.6 Journal Templates -->
+  <h3>3.6 Journal Templates</h3>
+
+  <h4>3.6.1 Definition</h4>
+  <p>Journal Templates help users create accounting vouchers more efficiently by reusing predefined entry structures. They are especially useful for recurring transactions or commonly used accounting scenarios.</p>
+
+  <h4>3.6.2 What Is a Journal Template</h4>
+  <ul>
+    <li>Accounts used in the entry</li>
+    <li>Debit and credit directions</li>
+    <li>Optional default amounts or descriptions</li>
+    <li>Currency and accounting center settings (if applicable)</li>
+  </ul>
+
+  <h4>3.6.3 Creating Journal Templates</h4>
+  <ul>
+    <li>Monthly rent expenses</li>
+    <li>Salary payments</li>
+    <li>Utility bills</li>
+    <li>Depreciation entries</li>
+    <li>Period-end adjustments</li>
+  </ul>
+
+  <h4>3.6.4 Using Journal Templates</h4>
+  <ul>
+    <li>Select a journal template</li>
+    <li>Automatically load the predefined accounts and structure</li>
+    <li>Adjust amounts, dates, or additional fields</li>
+    <li>Post the voucher to update the General Ledger</li>
+  </ul>
+
+  <h4>3.6.5 Customization and Flexibility</h4>
+  <ul>
+    <li>Accounts can be added or removed</li>
+    <li>Debit and credit sides can be adjusted</li>
+    <li>Descriptions and notes can be updated</li>
+    <li>Accounting centers or currencies can be modified</li>
+  </ul>
+
+  <h4>3.6.6 Best Practices</h4>
+  <ul>
+    <li>Create templates for high-frequency or standard transactions</li>
+    <li>Keep template names clear and descriptive</li>
+    <li>Review templates periodically</li>
+    <li>Do not use templates to bypass review or approval</li>
+  </ul>
+
+  <!-- 3.7 Accounts Management -->
+  <h3>3.7 Accounts Management</h3>
+
+  <h4>3.7.1 Definition</h4>
+  <p>The Account Management section allows users to create and maintain financial accounts used for daily bookkeeping and reporting.</p>
+
+  <h4>3.7.2 Managing Accounts</h4>
+  <ul>
+    <li>Create new accounts</li>
+    <li>Edit existing accounts</li>
+    <li>Delete accounts that are no longer needed</li>
+  </ul>
+
+  <h4>3.7.3 Accounting Centers</h4>
+  <p>An <strong>Accounting Center</strong> is a <strong>custom, user-defined classification</strong> that helps explain how and where account balances are generated.</p>
+
+  <h4>3.7.4 Why use Accounting Centers?</h4>
+  <ul>
+    <li>Record account activities with additional context</li>
+    <li>Analyze account balances from multiple perspectives</li>
+    <li>Improve clarity in financial records without changing the core account structure</li>
+  </ul>
+
+  <!-- 3.8 Financial Statement Templates -->
+  <h3>3.8 Financial Statement Templates</h3>
+
+  <h4>3.8.1 Definition</h4>
+  <p>Financial Statement Templates define the structure and presentation of financial reports. They allow users to standardize financial statements while remaining flexible enough to adapt to different accounting needs.</p>
+
+  <h4>3.8.2 What Is a Financial Statement Template</h4>
+  <ul>
+    <li>Report items and their hierarchy</li>
+    <li>Account-to-report-item mappings</li>
+    <li>Calculation rules and formulas</li>
+    <li>Display order and visibility</li>
+  </ul>
+
+  <h4>3.8.3 Using Templates in Reports</h4>
+  <ul>
+    <li>Accounts grouped according to template definitions</li>
+    <li>Amounts calculated automatically</li>
+    <li>Subtotals and totals generated based on the template structure</li>
+  </ul>
+
+  <h4>3.8.4 Creating and Customizing Templates</h4>
+  <ul>
+    <li>Standard accounting reports</li>
+    <li>Industry-specific report formats</li>
+    <li>Internal management reports</li>
+    <li>Multi-level report items</li>
+    <li>Flexible account mappings</li>
+    <li>Formula-based calculations</li>
+    <li>Conditional visibility of items</li>
+  </ul>
+
+  <h4>3.8.5 Classic View and Hierarchical View</h4>
+  <ul>
+    <li>Classic view (flattened, statement-style layout)</li>
+    <li>Tree view (hierarchical relationships with subtotals at each level)</li>
+  </ul>
+
+  <h4>3.8.6 Reusability and Sharing</h4>
+  <ul>
+    <li>Different periods</li>
+    <li>Different organizations or setups</li>
+    <li>Shared libraries or community resources</li>
+  </ul>
+
+  <h4>3.8.7 Best Practices</h4>
+  <ul>
+    <li>Create separate templates for different reporting purposes</li>
+    <li>Keep template names clear and descriptive</li>
+    <li>Test templates after structural changes</li>
+    <li>Validate results against the General Ledger</li>
+  </ul>
+    <h3>3.9 Exchange Rates</h3>
+
+  <h4>3.9.1 Definition</h4>
+  <p>The Exchange Rates section allows users to manage and apply currency exchange rates for accounting and reporting purposes. Exchange rates are primarily used to convert amounts between different currencies when creating journal entries and preparing financial statements.</p>
+
+  <h4>3.9.2 Creating Exchange Rates</h4>
+  <p>Users can manually create exchange rates between any two currencies. Each exchange rate can be defined with:</p>
+  <ul>
+    <li>Base currency and target currency</li>
+    <li>Effective date</li>
+    <li>Rate value</li>
+  </ul>
+  <p>Created exchange rates become available throughout the system for currency conversion.</p>
+
+  <h4>3.9.3 Using Exchange Rates in Vouchers</h4>
+  <p>When a voucher involves multiple currencies, exchange rates are used to convert foreign currency amounts into the base accounting currency.</p>
+  <ul>
+    <li>Users may <strong>manually select</strong> a specific exchange rate for a voucher.</li>
+    <li>The system can also <strong>automatically match</strong> an appropriate exchange rate, provided that relevant exchange rates have already been created.</li>
+  </ul>
+  <p>This flexibility allows users to control how currency conversions are applied in different accounting scenarios.</p>
+
+  <h4>3.9.4 Period-End Revaluation</h4>
+  <p>As a general accounting principle, foreign currency balances should be <strong>revalued at period end</strong> using the closing exchange rate.</p>
+  <ul>
+    <li>Users should apply the period-end exchange rate to revalue foreign currency balances.</li>
+    <li>The system updates balances to reflect the latest exchange rate conditions.</li>
+    <li>Resulting exchange differences are accurately reflected in financial statements.</li>
+  </ul>
+  <p>This process ensures that reports present a true and up-to-date financial position under current exchange rates.</p>
+
+  <h4>3.9.5 Best Practices</h4>
+  <ul>
+    <li>Maintain exchange rates regularly, especially for active foreign currencies.</li>
+    <li>Ensure period-end exchange rates are created before closing the period.</li>
+    <li>Review revaluation results to confirm they align with accounting expectations.</li>
+  </ul>
+  <p>By managing exchange rates effectively, users can ensure accurate multi-currency accounting and reliable financial reporting.</p>
+            </section>
+
+            <section id="social">
+                <h2>Social</h2>
+
+                <h3>4.1 Employee</h3>
+                <p>In the Employee List View, users can manage employee information within the organization, such as names, roles, and departments.</p>
+                <p>Employees in this view can be directly linked to financial records, allowing journal entries and account movements to be associated with specific employees. This enables users to analyze expenses, payroll-related costs, and other financial activities by employee or by department.</p>
+                <p>The Employee List View helps connect personnel data with financial data, making internal cost tracking and analysis more accurate and transparent.</p>
+
+                <h3>4.2 Department</h3>
+                <p>In the Department View, users can manage organizational departments, such as administrative, sales, or operational units..</p>
+                <p>Departments can be linked to journal entries and financial accounts, allowing users to track income, expenses, and costs by department. This makes it possible to analyze financial performance, allocate internal costs, and generate department-based reports..</p>
+                <p>The Department View helps structure financial data according to the organization’s internal hierarchy, supporting more accurate cost control and management analysis.</p>
+                <h3>4.3 Social Wall</h3>
+                <p>The Social Wall allows users to publish posts and share financial statement templates with the community. Users can browse, download, and apply shared templates in their own financial scenarios, making it easier to build and reuse proven reporting structures.</p>
+                <p>Because the Social Wall connects to an online server, access speed and connection quality may vary depending on the user’s region and network conditions. Some content may load more slowly or be temporarily unavailable in regions with limited connectivity.</p>
+                <p>The Social Wall is designed to support collaboration and knowledge sharing while adapting to different regional network environments.</p>
+            </section>
+
+            <section id="settings">
+                <h2>Settings</h2>
+                <h3>5.1 System Settings</h3>
+                <h4>5.1.1 User</h4>
+                <p>Set the username for accounting entries.</p>
+                <h4>5.1.2 Organization</h4>
+                <p>Create a new organization, edit the base currency for accounting, and select the current organization for bookkeeping.</p>
+                <h4>5.1.3 Date & Time</h4>
+                <p>Date & time format settings.</p>
+                <h4>5.1.4 Language & Region</h4>
+                <p>Set interface language and accounting region.</p>
+                <h4>5.1.5 Wallpaper</h4>
+                <p>The user can change the default wallpaper here.</p>
+                <h3>5.2 Data Management</h3>
+                <p>On the Data Management page, users can turn iCloud sync on or off, back up or restore the database, or delete it entirely.</p>
+            </section>
+            
+            <section id="contact">
+              <h2>Contact</h2>
+              
+              <p>If you have any questions or need support, you can reach us at:</p>
+              
+              <ul>
+                <li>Email: <a href="mailto:support@biczic.com">support@biczic.com</a></li>
+              </ul>
+
+              <p>We are happy to assist with any issues or feedback regarding the app.</p>
+            </section>
+
+        </article>
+  </main>
+
+</body>
+</html>
+
